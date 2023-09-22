@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "babel ./src --out-dir=./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-arrow-functions": "^7.22.5",
+    "@babel/plugin-transform-template-literals": "^7.22.5"
+  }
+}
