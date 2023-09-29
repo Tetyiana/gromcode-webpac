@@ -12,10 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.22.15",
-    "@babel/core": "^7.22.20",
-    "@babel/preset-env": "^7.22.20"
-  },
-  "dependencies": {
-    "core-js": "^3.32.2"
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "core-js": "^3.32.2",
+    "regenerator-runtime": "^0.14.0"
   }
 }
