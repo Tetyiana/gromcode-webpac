@@ -1,0 +1,22 @@
+{
+  "name": "webpack-css-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production ",
+    "watch": "webpack -d --devtools eval-source-maps -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1"
+  }
+}
